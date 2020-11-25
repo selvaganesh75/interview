@@ -15,7 +15,7 @@ const AddNote = ({ handleSubmit = () => {} }) => {
   return (
     <form className="myForm animated fadeIn" onSubmit={onSubmit}>
       <div className="form-group">
-        <label htmlFor="title text-dark">Title:</label>
+        <label htmlFor="title" className="text-dark">Title:</label>
         <input
           className="form-control input-lg"
           type="text"
@@ -27,7 +27,7 @@ const AddNote = ({ handleSubmit = () => {} }) => {
         />
       </div>
       <div className="form-group">
-        <label htmlFor="password text-dark">Body:</label>
+        <label htmlFor="text-area" className= "text-dark">Body:</label>
         <textarea
           rows={textAreaRow}
           className="form-control input-lg"
