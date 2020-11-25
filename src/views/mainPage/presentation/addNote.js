@@ -20,7 +20,7 @@ const AddNote = ({ handleSubmit = () => {} }) => {
           className="form-control input-lg"
           type="text"
           name="title"
-          id="text"
+          id="title"
           placeholder=""
           onChange={({ target }) => setTitle(target.value)}
           value={title}
@@ -32,6 +32,7 @@ const AddNote = ({ handleSubmit = () => {} }) => {
           rows={textAreaRow}
           className="form-control input-lg"
           name="text-area"
+          id="text-area"
           placeholder=""
           onChange={({ target }) => setBody(target.value)}
           value={body}

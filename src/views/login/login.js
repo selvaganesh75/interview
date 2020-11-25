@@ -64,7 +64,7 @@ class LoginScreen extends React.Component {
                   className="form-control input-lg"
                   type="text"
                   name="username"
-                  id="text"
+                  id="username"
                   placeholder="username"
                   onChange={this.handleChange}
                   value={this.state.username}
@@ -76,6 +76,7 @@ class LoginScreen extends React.Component {
                   className="form-control input-lg"
                   type="password"
                   name="password"
+                  id="password"
                   placeholder="password"
                   onChange={this.handleChange}
                   value={this.state.password}
