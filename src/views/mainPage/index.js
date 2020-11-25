@@ -74,7 +74,7 @@ class MainPage extends Component {
             {this.state.showNote ? (
               <AddNote handleSubmit={this.addNote} />
             ) : (
-              <div className="d-flex justify-content-center align-items-center text-dark">
+              <div className="d-flex justify-content-center align-items-center text-dark h-50">
                 Create Notes
               </div>
             )}
