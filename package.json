@@ -2,7 +2,7 @@
   "name": "test-app",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://selvaganesh75.github.io/interview",
+  "homepage":"https://selvaganesh75.github.io/interview/",
   "dependencies": {
     "@craco/craco": "^5.6.4",
     "axios": "^0.19.2",

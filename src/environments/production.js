@@ -3,8 +3,8 @@ import environment from "./base";
 // production backend url
 
 export const obj = {
-  basePath: "interview/",
-  login: "/user.json",
+   basePath: "interview/",
+  login: "https://selvaganesh75.github.io/interview/user.json",
 };
 const env = environment(obj);
 

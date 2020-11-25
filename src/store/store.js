@@ -1,6 +1,6 @@
 import { createStore, applyMiddleware } from "redux";
 import createSagaMiddleware from "redux-saga";
-import { createBrowserHistory } from "history";
+import { createBrowserHistory, createHashHistory } from "history";
 import { syncHistoryWithStore } from "react-router-redux";
 import rootSaga from "./sagas";
 import rootReducer from "./rootReducer";
@@ -11,8 +11,8 @@ const store = createStore(rootReducer, applyMiddleware(sagaMiddleware));
 
 sagaMiddleware.run(rootSaga);
 
-const browserHistory = createBrowserHistory({
-  basename: process.env.REACT_APP_ROUTER_BASE || environment.basePath || ""
+const browserHistory = createHashHistory({
+   basename: process.env.PUBLIC_URL || environment.basePath || ""
 });
 
 export const history = syncHistoryWithStore(browserHistory, store);
