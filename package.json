@@ -2,6 +2,7 @@
   "name": "test-app",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://selvaganesh75.github.io/interview",
   "dependencies": {
     "@craco/craco": "^5.6.4",
     "axios": "^0.19.2",
@@ -23,6 +24,7 @@
     "build": "cross-env CLIENT_ENV=production craco build",
     "test": "react-scripts test",
     "lint": "eslint ./src/**/*.{js,jsx} --fix",
+	
     "test:cov": "npm test -- --coverage --watchAll=false",
     "test:debug": "react-scripts --inspect-brk test --runInBand",
     "eject": "react-scripts eject",

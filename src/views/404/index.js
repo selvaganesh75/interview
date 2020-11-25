@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import { Row } from "antd";
 import { withRouter } from "react-router-dom";
 
 const NotFound = (props) => {
   return (
     <div className="animated fadeIn">
-      <Row>
+      <div className="row">
         <div
           className="justify-content-center align-items-center d-flex flex-column"
           style={{ height: "100vh" }}
@@ -33,7 +32,7 @@ const NotFound = (props) => {
             Home
           </a>
         </div>
-      </Row>
+      </div>
     </div>
   );
 };

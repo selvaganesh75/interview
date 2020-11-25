@@ -4,8 +4,6 @@ import "./App.scss";
 import routes from "./routes";
 import { PrivateRoute } from "./Routing/private-route";
 import { history } from "./store/store";
-import { FormattedMessage } from "react-intl";
-
 const loading = () => (
   <div className="animated fadeIn pt-3 text-center">Loading...</div>
 );

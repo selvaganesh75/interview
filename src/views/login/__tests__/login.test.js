@@ -1,5 +1,5 @@
 import React from "react";
-import { shallow } from "enzyme";
+import { shallow } from "../../../enzyme";
 import Login from "../login";
 describe("Test case for testing login", () => {
   let wrapper;
